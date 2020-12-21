@@ -8,7 +8,7 @@ class ciag
 {
 	int dlugosc;
     int cyfra;
-    vector <int cyfra> policz;
+    vector <int cyfra> oblicz;
     public:
     void oblicz();
 	bool sprawdz_czy_szescian(int cyfra);
@@ -41,7 +41,7 @@ void ciag::oblicz()
 int main()
 {
 	ciag c;
-	c.policz();
+	c.oblicz();
 	
 return 0;
 }
