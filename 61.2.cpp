@@ -14,10 +14,10 @@ class ciag
 	bool sprawdz_czy_szescian(int cyfra);
 	bool ciag::sprawdz_czy_szescian(int cyfra)
 {
-    for (int i=0; i<liczba; i++)
+    for (int i=0; i<cyfra; i++)
 {
     int szescian= i* i * i;
-    if (szescian==liczba) return true;
+    if (szescian==cyfra) return true;
 }
 return false;
 }
